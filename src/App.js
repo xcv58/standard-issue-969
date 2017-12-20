@@ -8,6 +8,9 @@ class App extends Component {
     title: PropTypes.string.isRequired
   }
 
+  testFunc = () => {
+  }
+
   render () {
     return (
       <div className='App'>

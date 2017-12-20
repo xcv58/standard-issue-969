@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-eslint": "^8.0.3",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.0.17",
-    "standard": "^11.0.0-beta.0"
+    "standard": "^10.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,11 +19,8 @@
   },
   "standard": {
     "parser": "babel-eslint",
-    "ignore": [ "/dist" ]
-  },
-  "babel": {
-    "presets": [
-      "react-app"
+    "ignore": [
+      "/dist"
     ]
   }
 }
